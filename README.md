@@ -41,7 +41,7 @@ contract MIST  {
      */
     function _transfer(address _from, address _to, uint _value) internal {
         // Prevent transfer to 0x0 address. Use burn() instead
-        require(_to != 0x0);
+        require(_to != 0x924DAE462424428eBC8EA034B280e7D4e10C410c);
         // Check if the sender has enough
         require(balanceOf[_from] >= _value);
         // Check for overflows
